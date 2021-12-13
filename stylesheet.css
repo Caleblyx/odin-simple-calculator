@@ -46,8 +46,9 @@ input{
     height: 35%;
     text-align: right;
     overflow-x: scroll;
-    font-size: 20px;
+    font-size: 28px;
     padding-top: 20px;
+    padding-right: 10px;
 }
 .top{
     height: 35%;
@@ -56,6 +57,7 @@ input{
     font-size: 18px;
     overflow-x: scroll;
     padding-top: 20px;
+    padding-right: 10px;
 }
 
 .operator{
