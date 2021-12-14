@@ -116,6 +116,15 @@ function toggleNegation(e) {
     bottomDisplay.textContent = numberInput;
 }
 
+function processKeyboardInput(e) {
+    const button = document.querySelector(`input[data-key="${e.keyCode}"]`);
+    if (!button){
+        return;
+    }
+    button.click();
+}
+
+window.addEventListener('keydown', processKeyboardInput);
 const numbers = document.querySelectorAll(".number");
 const topDisplay = document.querySelector(".top");
 const bottomDisplay = document.querySelector(".bottom");
